@@ -1,6 +1,6 @@
 <?php
     $name = "Zary";
-    $age = 21;
+    $age = 20;
     $city = "Mataram";
     $status = true;
     if ($status == true) {
