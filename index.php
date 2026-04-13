@@ -4,7 +4,7 @@
     $city = "Mataram";
     $status = true;
     if ($status == true) {
-        $status = "Lajang";
+        $status = "Jomblo";
     } else {
         $status = "Menikah";
     }
