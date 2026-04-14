@@ -9,4 +9,7 @@
         $status = "Menikah";
     }
     echo "Nama saya $name, umur saya $age tahun dan saya tinggal di $city. Status saya $status.";
+    for ($i = 0; $i < 10; $i++) {
+        echo $i;
+    }
 ?>
