@@ -25,6 +25,7 @@
     $hasil = $nilai1 + $nilai2 - $nilai3 + $nilai4 / $nilai5;
     echo $hasil;
 
+    echo "<br>";
     //percabangan
     $nilai = 80;
     if ($nilai >= 80) {
@@ -37,36 +38,13 @@
         echo "D";
     }
 
-    //perulangan
-    for ($i = 0; $i < 10; $i++) {
-        echo $i;
-    }
+    // ganjil genap
+    echo "<br>";
 
-    //array
-    $buah = array("Apel", "Mangga", "Jeruk");
-    echo $buah[0];
-    echo $buah[1];
-    echo $buah[2];
-
-    //function
-    function tambah($a, $b) {
-        return $a + $b;
+    $test = 10;
+    if ($test % 2 == 0) {
+        echo "Genap";
+    } else {
+        echo "Ganjil";
     }
-    echo tambah(10, 20);
-
-    //object
-    class Manusia {
-        public $nama;
-        public $umur;
-        public $kota;
-        public function __construct($nama, $umur, $kota) {
-            $this->nama = $nama;
-            $this->umur = $umur;
-            $this->kota = $kota;
-        }
-    }
-    $manusia = new Manusia("Zary", 20, "Mataram");
-    echo $manusia->nama;
-    echo $manusia->umur;
-    echo $manusia->kota;
 ?>
