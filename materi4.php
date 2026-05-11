@@ -17,7 +17,7 @@
             echo "Data gagal ditambahkan";
         }
     }
-    
+
 ?>
 
 
@@ -40,7 +40,7 @@
             echo "Data gagal dihapus";
         }
     }
-    
+
     if (isset($_GET['edit'])) {
         $id = $_GET['edit'];
         $sql = "SELECT * FROM login WHERE id = $id";
@@ -54,7 +54,7 @@
         <input type='submit' value='Simpan Perubahan' name='simpan'>
         </form>";
     }
-    
+
     if (isset($_POST['simpan'])) {
         $id = $_GET['edit'];
         $username = $_POST['username'];
@@ -99,4 +99,4 @@
         </td>
         </tr>";
     }
-    ?>
+?>
